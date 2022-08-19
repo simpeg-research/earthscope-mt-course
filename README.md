@@ -1,1 +1,1 @@
-# iris-mt-source-2022
+# iris-mt-course-2022
