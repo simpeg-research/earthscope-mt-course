@@ -33,6 +33,9 @@ jobs:
         python --version
         conda env create -f environment.yml
         source activate em
+        pip install git+https://github.com/kujaku11/mth5.git
+        pip install git+https://github.com/kujaku11/mt_metadata.git
+        pip install git+https://github.com/MTgeophysics/mtpy.git@v2
     - name: Run Tests
       shell: bash
       run: |
