@@ -1,5 +1,10 @@
 **[summary](#summary) | [prerequisites](#prerequisites) | [setup](#setup) | [resources](#resources) | [license](#license)**
 
+[![Build Status](https://travis-ci.org/simpeg-research/heagy-2018-AEM.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy-2018-AEM)
+[![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/iris-mt-course-2022/blob/main/LICENSE)
+[![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40sgkang09)](https://twitter.com/sgkang09)
+
 # MT Inversions and Earth Models
 
 
@@ -25,7 +30,7 @@ For the forward modelling, I will start from 3D then reduce the domain into 2D a
 In contrast, for the inversion, I will start from 1D then exapnd the domain into 2D and 3D. 
 For both forward modelling and inversion, I will use an opne-source geophysical software package, [SimPEG](https://www.simpeg.xyz). 
 Both synthetic and field data are used as motivating examples. 
-The field data used in this tutorial is compiled by Jared Peacock, Paul Bedrosian, Anna Kelbert, and avaialble in the form of [MTH5](). For reading the field data into [SimPEG](https://www.simpeg.xyz), I will use [MTpy](). 
+The field data used in this tutorial is compiled by [Jared Peacock](), Paul Bedrosian, Anna Kelbert, and avaialble in the form of [MTH5](https://github.com/kujaku11/mth5). For reading the field data into [SimPEG](https://www.simpeg.xyz), I will use [MTpy](https://github.com/MTgeophysics/mtpy). 
 
 
 ## Prerequisites
@@ -35,7 +40,7 @@ The field data used in this tutorial is compiled by Jared Peacock, Paul Bedrosia
 * Some knowledge of Python is assumed.
 * All coding will be done in Jupyter notebooks. I'll explain how they work
   briefly but it will help if you've used them before.
-* We'll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
+* I will ll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
