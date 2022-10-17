@@ -140,6 +140,9 @@ pip install -e .
 ```
 cd ..
 ```
+```
+cd iris-mt-course-2022
+```
 
 ### Step 4: Launching the notebooks
 
