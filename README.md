@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/iris-mt-course-2022/blob/main/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
-# MT Inversions and Earth Models
+# Magnetotelluric (MT) Instrumentation and Data Processing Short Course
 
 
 |         | Info |
