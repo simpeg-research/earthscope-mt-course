@@ -129,13 +129,16 @@ python setup.py install
 cd ..
 ```
 ```
-https://github.com/simpeg/simpeg.git
+git clone https://github.com/simpeg/simpeg.git
 ```
 ```
 cd simpeg
 ```
 ```
 pip install -e .
+```
+```
+cd ..
 ```
 
 ### Step 4: Launching the notebooks
