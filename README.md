@@ -125,10 +125,10 @@ git clone https://github.com/simpeg/aurora.git
 cd aurora
 ```
 ```
-cd ..
-```
-```
 python setup.py install
+```
+```
+cd ..
 ```
 ```
 https://github.com/simpeg/simpeg.git
