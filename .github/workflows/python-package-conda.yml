@@ -38,7 +38,7 @@ jobs:
         git checkout -f tiled_fdem_nsem
         pip install -e .
         cd ..
-        rm -f simpeg
+        rm -rf simpeg
         pip install -r requirements_dev.txt
     - name: Run Tests
       shell: bash
