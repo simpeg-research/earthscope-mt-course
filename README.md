@@ -148,7 +148,7 @@ cd iris-mt-course-2022
 
 Once you have activated the conda environment, you can launch the notebooks
 ```
-jupyter notebook
+jupyter lab
 ```
 Jupyter will then launch in your web-browser.
 
