@@ -123,7 +123,7 @@ git clone https://github.com/simpeg/aurora.git
 cd aurora
 ```
 ```
-python setup.py install
+pip install -e .
 ```
 ```
 cd ..
