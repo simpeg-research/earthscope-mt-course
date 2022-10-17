@@ -9,7 +9,9 @@ NBDIR = os.path.sep.join(
 
 IGNORE = [
     "1_3d_forward_modelling",
-    "2_2d_forward_modelling",
+    "3_1d_forward_modelling.ipynb",
+    "4_1d_parametric_inversion.ipynb",
+    "6_1d_fixed_layer_inversion_field_data.ipynb",
     "7_2d_inversion_synthetic",
     "8_3d_inversion_synthetic"
 ]
