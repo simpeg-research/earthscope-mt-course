@@ -46,7 +46,7 @@ jobs:
         cd mt_metadata
         pip install -e .
         cd ..
-        git clone git+https://github.com/MTgeophysics/mtpy.git
+        git clone https://github.com/MTgeophysics/mtpy.git
         cd mtpy
         git check out -f v2
         pip install -e .
