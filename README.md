@@ -108,10 +108,10 @@ git clone https://github.com/MTgeophysics/mtpy.git
 git checkout -f v2
 ```
 ```
-python setup.py install
-```
-```
 cd mtpy
+```
+```
+python setup.py install
 ```
 ```
 cd ..
