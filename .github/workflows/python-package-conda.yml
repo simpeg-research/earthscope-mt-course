@@ -33,24 +33,6 @@ jobs:
         python --version
         conda env create -f environment.yml
         source activate em
-        git clone https://github.com/simpeg/simpeg
-        cd simpeg
-        git checkout -f tiled_fdem_nsem
-        pip install -e .
-        cd ..
-        git clone https://github.com/kujaku11/mth5.git
-        cd mth5
-        pip install -e .
-        cd ..
-        git clone https://github.com/kujaku11/mt_metadata.git
-        cd mt_metadata
-        pip install -e .
-        cd ..
-        git clone https://github.com/MTgeophysics/mtpy.git
-        cd mtpy
-        git checkout -f v2
-        pip install -e .
-        cd ..
         pip install -r requirements_dev.txt
     - name: Run Tests
       shell: bash
