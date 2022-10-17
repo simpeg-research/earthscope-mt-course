@@ -8,7 +8,7 @@
 
 |         | Info |
 |--------:|:-----|
-| When    | Thursday, October 20th 2022|
+| When    | October 18-20th 2022|
 | conda environment  | `em` |
 | Slides  | [MT inversion](http://bit.ly/iris-mt-course-2022-slides) |
 
