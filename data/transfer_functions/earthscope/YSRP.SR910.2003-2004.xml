@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EM_TF>
+  <Description>Magnetotelluric Transfer Functions</Description>
+  <ProductId>YSRP.SR910.2003-2004</ProductId>
+  <SubType>MT_TF</SubType>
+  <Notes/>
+  <Tags>impedance,tipper</Tags>
+  <ExternalUrl>
+    <Description>IRIS DMC MetaData</Description>
+    <Url>http://www.iris.edu/mda/EM/SR910</Url>
+  </ExternalUrl>
+  <PrimaryData>
+    <Filename>sr910l_920.png</Filename>
+  </PrimaryData>
+  <Attachment>
+    <Filename>sr910l_920.zrr</Filename>
+    <Description>The original used to produce the XML</Description>
+  </Attachment>
+  <Provenance>
+    <CreateTime>2018-01-02T15:28:54</CreateTime>
+    <CreatingApplication>EMTF File Conversion Utilities 4.0</CreatingApplication>
+    <Creator>
+      <Name>Gary Egbert and Anna Kelbert</Name>
+      <Email>egbert@coas.oregonstate.edu</Email>
+      <Org>Oregon State University</Org>
+      <OrgUrl>http://oregonstate.edu</OrgUrl>
+    </Creator>
+    <Submitter>
+      <Name>Anna Kelbert</Name>
+      <Email>anya@coas.oregonstate.edu</Email>
+      <Org>Oregon State University</Org>
+      <OrgUrl>http://oregonstate.edu</OrgUrl>
+    </Submitter>
+  </Provenance>
+  <Copyright>
+    <Citation>
+      <Title> Transfer Functions for Deep Magnetotelluric Sounding along the Yellowstone-Snake River hotspot track</Title>
+      <Authors>de Groot-Hedlin, C., Constable, S. and Weitemeyer, K.</Authors>
+      <Year>2003-2004</Year>
+      <SurveyDOI>doi:10.17611/DP/EMTF/YSRP/2004</SurveyDOI>
+    </Citation>
+    <SelectedPublications>Kelbert, A., &amp; Egbert, G. D. and deGroot-Hedlin, C. (2012). Crust and upper mantle electrical conductivity beneath the Yellowstone Hotspot Track. Geology, 40(5), 447-450.</SelectedPublications>
+    <Acknowledgement>YSRP data collection was funded by National Science Foundation grant EAR0229814</Acknowledgement>
+    <ReleaseStatus>Unrestricted Release</ReleaseStatus>
+    <ConditionsOfUse> All data and metadata for this survey are available free of charge and may be copied freely, duplicated and further distributed provided that this data set is cited as the reference, and that the author(s) contributions are acknowledged as detailed in the Acknowledgements. Any papers cited in this file are only for reference. There is no requirement to cite these papers when the data are used. Whenever possible, we ask that the author(s) are notified prior to any publication that makes use of these data.
+ While the author(s) strive to provide data and metadata of best possible quality, neither the author(s) of this data set, nor IRIS make any claims, promises, or guarantees about the accuracy, completeness, or adequacy of this information, and expressly disclaim liability for errors and omissions in the contents of this file. Guidelines about the quality or limitations of the data and metadata, as obtained from the author(s), are included for informational purposes only.</ConditionsOfUse>
+  </Copyright>
+  <Site>
+    <Project>YSRP</Project>
+    <Survey>Yellowstone-Snake River Plain</Survey>
+    <YearCollected>2003-2004</YearCollected>
+    <Country>USA</Country>
+    <Id>SR910</Id>
+    <Name>Snake River Plain, ID, USA</Name>
+    <Location datum="WGS84">
+      <Latitude>42.634800</Latitude>
+      <Longitude>-113.854300</Longitude>
+      <Elevation units="meters">1285.850</Elevation>
+      <Declination epoch="1995.0">14.900</Declination>
+    </Location>
+    <Orientation angle_to_geographic_north="0.000">orthogonal</Orientation>
+    <AcquiredBy>UCSD/Catherine de Groot-Hedlin</AcquiredBy>
+    <Start>2004-06-18T20:47:57</Start>
+    <End>2004-07-11T21:02:46</End>
+    <RunList>SR910f SR910l</RunList>
+    <DataQualityNotes>
+      <Rating>2</Rating>
+      <GoodFromPeriod>7.000</GoodFromPeriod>
+      <GoodToPeriod>10000.000</GoodToPeriod>
+      <Comments author="Gary Egbert and Anna Kelbert">serious issues with one or both modes</Comments>
+    </DataQualityNotes>
+    <DataQualityWarnings>
+      <Flag>0</Flag>
+      <Comments author="Gary Egbert and Anna Kelbert"></Comments>
+    </DataQualityWarnings>
+  </Site>
+  <FieldNotes run="SR910l">
+    <Instrument>
+      <Manufacturer>Barry Narod</Manufacturer>
+      <Name>NIMS</Name>
+      <Id>2106-1H</Id>
+      <Settings/>
+    </Instrument>
+    <Magnetometer type="fluxgate">
+      <Manufacturer>Barry Narod</Manufacturer>
+      <Name>NIMS</Name>
+      <Id>2106-1</Id>
+      <Settings/>
+    </Magnetometer>
+    <Dipole name="Ex" type="wire">
+      <Manufacturer>Oregon State University</Manufacturer>
+      <Length units="meters">93.200</Length>
+      <Azimuth units="degrees">14.900</Azimuth>
+      <Electrode location="N" number="">Pb-PbCl2 kaolin gel Petiau 2 chamber type</Electrode>
+      <Electrode location="S" number="">Pb-PbCl2 kaolin gel Petiau 2 chamber type</Electrode>
+    </Dipole>
+    <Dipole name="Ey" type="wire">
+      <Manufacturer>Oregon State University</Manufacturer>
+      <Length units="meters">75.600</Length>
+      <Azimuth units="degrees">104.900</Azimuth>
+      <Electrode location="E" number="">Pb-PbCl2 kaolin gel Petiau 2 chamber type</Electrode>
+      <Electrode location="W" number="">Pb-PbCl2 kaolin gel Petiau 2 chamber type</Electrode>
+    </Dipole>
+    <Comments author="">no test V</Comments>
+    <Errors>ASCII header not written. No input GPS string.</Errors>
+    <SamplingRate units="Hz">4.000</SamplingRate>
+    <Start>2004-07-04T22:22:03</Start>
+    <End>2004-07-11T21:02:46</End>
+  </FieldNotes>
+  <ProcessingInfo>
+    <SignConvention>exp(+ i\omega t)</SignConvention>
+    <RemoteRef type="Robust Remote Reference"/>
+    <RemoteInfo>
+      <Site>
+        <Project>YSRP</Project>
+        <Survey>Yellowstone-Snake River Plain</Survey>
+        <YearCollected>2003-2004</YearCollected>
+        <Country>USA</Country>
+        <Id>SR920</Id>
+        <Name>Snake River Plain, ID, USA</Name>
+        <Location datum="WGS84">
+          <Latitude>42.914800</Latitude>
+          <Longitude>-113.421600</Longitude>
+          <Elevation units="meters">1399.200</Elevation>
+        </Location>
+      </Site>
+      <FieldNotes run="SR920f">
+        <Instrument>
+          <Manufacturer>Barry Narod</Manufacturer>
+          <Name>NIMS</Name>
+          <Id>2106-7H</Id>
+          <Settings/>
+        </Instrument>
+        <Dipole name="Ex">
+          <Length units="meters">97.800</Length>
+        </Dipole>
+        <Dipole name="Ey">
+          <Length units="meters">83.800</Length>
+        </Dipole>
+        <Comments author="">V</Comments>
+        <Errors>ASCII header not written. No input GPS string.</Errors>
+        <SamplingRate units="Hz">4.000</SamplingRate>
+        <Start>2004-06-19T00:17:13</Start>
+        <End>2004-06-27T22:44:24</End>
+      </FieldNotes>
+      <FieldNotes run="SR920l">
+        <Instrument>
+          <Manufacturer>Barry Narod</Manufacturer>
+          <Name>NIMS</Name>
+          <Id>2106-8H</Id>
+          <Settings/>
+        </Instrument>
+        <Dipole name="Ex">
+          <Length units="meters">95.100</Length>
+        </Dipole>
+        <Dipole name="Ey">
+          <Length units="meters">83.800</Length>
+        </Dipole>
+        <Comments author="">redo on this site</Comments>
+        <Errors>ASCII header not written. No input GPS string.</Errors>
+        <SamplingRate units="Hz">4.000</SamplingRate>
+        <Start>2004-07-04T18:38:53</Start>
+        <End>2004-07-11T16:53:40</End>
+      </FieldNotes>
+    </RemoteInfo>
+    <ProcessedBy>Gary Egbert and Anna Kelbert</ProcessedBy>
+    <ProcessingSoftware>
+      <Name>EMTF</Name>
+      <LastMod>2008-06-28</LastMod>
+      <Author>Gary Egbert</Author>
+    </ProcessingSoftware>
+    <ProcessingTag>sr910l_920</ProcessingTag>
+  </ProcessingInfo>
+  <StatisticalEstimates>
+    <Estimate name="VAR" type="real">
+      <Description>Variance</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/variance.html</ExternalUrl>
+      <Intention>error estimate</Intention>
+      <Tag>variance</Tag>
+    </Estimate>
+    <Estimate name="COV" type="complex">
+      <Description>Full covariance between each two TF components</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/covariance.html</ExternalUrl>
+      <Intention>error estimate</Intention>
+      <Tag>covariance</Tag>
+    </Estimate>
+    <Estimate name="INVSIGCOV" type="complex">
+      <Description>Inverse Coherent Signal Power Matrix (S)</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/inverse_signal_covariance.html</ExternalUrl>
+      <Intention>signal power estimate</Intention>
+      <Tag>inverse_signal_covariance</Tag>
+    </Estimate>
+    <Estimate name="RESIDCOV" type="complex">
+      <Description>Residual Covariance (N)</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/residual_covariance.html</ExternalUrl>
+      <Intention>error estimate</Intention>
+      <Tag>residual_covariance</Tag>
+    </Estimate>
+    <Estimate name="COH" type="complex">
+      <Description>Coherence</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/coherence.html</ExternalUrl>
+      <Intention>signal coherence</Intention>
+      <Tag>coherence</Tag>
+    </Estimate>
+    <Estimate name="PREDCOH" type="complex">
+      <Description>Multiple Coherence</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/multiple_coherence.html</ExternalUrl>
+      <Intention>signal coherence</Intention>
+      <Tag>multiple_coherence</Tag>
+    </Estimate>
+    <Estimate name="SIGAMP" type="complex">
+      <Description>Signal Amplitude</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/signal_amplitude.html</ExternalUrl>
+      <Intention>signal power estimate</Intention>
+      <Tag>signal_amplitude</Tag>
+    </Estimate>
+    <Estimate name="SIGNOISE" type="complex">
+      <Description>Signal Noise</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/signal_noise.html</ExternalUrl>
+      <Intention>error estimate</Intention>
+      <Tag>signal_noise</Tag>
+    </Estimate>
+  </StatisticalEstimates>
+  <DataTypes>
+    <DataType name="Z" type="complex" output="E" input="H" units="[mV/km]/[nT]">
+      <Description>MT impedance</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/impedance.html</ExternalUrl>
+      <Intention>primary data type</Intention>
+      <Tag>impedance</Tag>
+    </DataType>
+    <DataType name="T" type="complex" output="H" input="H" units="[]">
+      <Description>Vertical Field Transfer Functions (Tipper)</Description>
+      <ExternalUrl>http://www.iris.edu/dms/products/emtf/tipper.html</ExternalUrl>
+      <Intention>primary data type</Intention>
+      <Tag>tipper</Tag>
+    </DataType>
+  </DataTypes>
+  <SiteLayout>
+    <InputChannels ref="site" units="m">
+      <Magnetic name="Hx" orientation="14.9" x="0.0" y="0.0" z="0.0"/>
+      <Magnetic name="Hy" orientation="104.9" x="0.0" y="0.0" z="0.0"/>
+    </InputChannels>
+    <OutputChannels ref="site" units="m">
+      <Magnetic name="Hz" orientation="0.0" x="0.0" y="0.0" z="0.0"/>
+      <Electric name="Ex" orientation="14.9" x="-46.6" y="0.0" z="0.0" x2="46.6" y2="0.0" z2="0.0"/>
+      <Electric name="Ey" orientation="104.9" x="0.0" y="-37.8" z="0.0" x2="0.0" y2="37.8" z2="0.0"/>
+    </OutputChannels>
+  </SiteLayout>
+  <Data count="30">
+    <Period value="7.314290e0" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">8.877270e-3 1.980493e-1</value>
+        <value name="Zxy" output="Ex" input="Hy">-6.656893e-2 -1.581954e0</value>
+        <value name="Zyx" output="Ey" input="Hx">1.156311e-1 1.805046e0</value>
+        <value name="Zyy" output="Ey" input="Hy">-3.272699e-4 -2.176493e-1</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">9.435336e-3</value>
+        <value name="Zxy" output="Ex" input="Hy">1.352247e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">1.368174e-2</value>
+        <value name="Zyy" output="Ey" input="Hy">1.960830e-2</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.817380e1 1.496000e-7</value>
+        <value output="Hx" input="Hy">-2.704978e0 1.286000e1</value>
+        <value output="Hy" input="Hx">-2.704978e0 -1.286000e1</value>
+        <value output="Hy" input="Hy">2.604620e1 1.496000e-7</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">5.191723e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">5.086586e-5 -2.730000e-6</value>
+        <value output="Ey" input="Ex">5.086586e-5 2.730000e-6</value>
+        <value output="Ey" input="Ey">7.528277e-4 1.058791e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">1.937656e-1 3.454769e-2</value>
+        <value name="Ty" output="Hz" input="Hy">2.002688e-2 -6.528168e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">5.866504e-3</value>
+        <value name="Ty" output="Hz" input="Hy">8.407713e-3</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.817380e1 1.496000e-7</value>
+        <value output="Hx" input="Hy">-2.704978e0 1.286000e1</value>
+        <value output="Hy" input="Hx">-2.704978e0 -1.286000e1</value>
+        <value output="Hy" input="Hy">2.604620e1 1.496000e-7</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">3.228000e-4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="9.142860e0" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-5.679515e-3 1.813449e-1</value>
+        <value name="Zxy" output="Ex" input="Hy">-9.027304e-2 -1.274046e0</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.618030e-1 1.308953e0</value>
+        <value name="Zyy" output="Ey" input="Hy">5.764951e-2 -1.834449e-1</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.324405e-3</value>
+        <value name="Zxy" output="Ex" input="Hy">3.425836e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">2.701170e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">3.981134e-3</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">5.748113e0 -1.310569e-8</value>
+        <value output="Hx" input="Hy">-1.125214e0 1.284000e0</value>
+        <value output="Hy" input="Hx">-1.125214e0 -1.284000e0</value>
+        <value output="Hy" input="Hy">8.471886e0 -5.174312e-9</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">4.043770e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">5.853270e-5 -9.441000e-6</value>
+        <value output="Ey" input="Ex">5.853270e-5 9.441000e-6</value>
+        <value output="Ey" input="Ey">4.699230e-4 4.235165e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">4.942075e-2 2.006166e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.370147e-1 7.128190e-3</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.150369e-3</value>
+        <value name="Ty" output="Hz" input="Hy">3.169333e-3</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">5.748113e0 -1.310569e-8</value>
+        <value output="Hx" input="Hy">-1.125214e0 1.284000e0</value>
+        <value output="Hy" input="Hx">-1.125214e0 -1.284000e0</value>
+        <value output="Hy" input="Hy">8.471886e0 -5.174312e-9</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">3.741000e-4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.163636e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">2.618167e-2 1.335451e-1</value>
+        <value name="Zxy" output="Ex" input="Hy">-2.402964e-3 -1.024322e0</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.485830e-1 9.744775e-1</value>
+        <value name="Zyy" output="Ey" input="Hy">8.448833e-2 -9.573512e-2</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">3.245123e-4</value>
+        <value name="Zxy" output="Ex" input="Hy">5.048338e-4</value>
+        <value name="Zyx" output="Ey" input="Hx">3.492122e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">5.432587e-4</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.021259e0 1.104260e-9</value>
+        <value output="Hx" input="Hy">1.795279e-1 -2.658000e-1</value>
+        <value output="Hy" input="Hx">1.795279e-1 2.658000e-1</value>
+        <value output="Hy" input="Hy">1.588741e0 6.089398e-10</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.177571e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">3.167923e-5 -2.500000e-5</value>
+        <value output="Ey" input="Ex">3.167923e-5 2.500000e-5</value>
+        <value output="Ey" input="Ey">3.419428e-4 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">9.238883e-2 5.934167e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.221845e-1 -4.929893e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">4.670217e-4</value>
+        <value name="Ty" output="Hz" input="Hy">7.265313e-4</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.021259e0 1.104260e-9</value>
+        <value output="Hx" input="Hy">1.795279e-1 -2.658000e-1</value>
+        <value output="Hy" input="Hx">1.795279e-1 2.658000e-1</value>
+        <value output="Hy" input="Hy">1.588741e0 6.089398e-10</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">4.573000e-4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.505882e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">8.934295e-3 8.522238e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">9.982224e-2 -7.584914e-1</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.627778e-1 6.901086e-1</value>
+        <value name="Zyy" output="Ey" input="Hy">7.454570e-2 -5.937238e-2</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">6.992967e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">6.549838e-5</value>
+        <value name="Zyx" output="Ey" input="Hx">7.436239e-5</value>
+        <value name="Zyy" output="Ey" input="Hy">6.965020e-5</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">3.155994e-1 1.543975e-9</value>
+        <value output="Hx" input="Hy">4.149679e-2 -4.266000e-2</value>
+        <value output="Hy" input="Hx">4.149679e-2 4.266000e-2</value>
+        <value output="Hy" input="Hy">2.956006e-1 3.624253e-10</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.215773e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">1.789641e-5 -1.917000e-5</value>
+        <value output="Ey" input="Ex">1.789641e-5 1.917000e-5</value>
+        <value output="Ey" input="Ey">2.356227e-4 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">7.084216e-2 4.681137e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.487163e-1 -3.549680e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">1.757258e-4</value>
+        <value name="Ty" output="Hz" input="Hy">1.645904e-4</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">3.155994e-1 1.543975e-9</value>
+        <value output="Hx" input="Hy">4.149679e-2 -4.266000e-2</value>
+        <value output="Hy" input="Hx">4.149679e-2 4.266000e-2</value>
+        <value output="Hy" input="Hy">2.956006e-1 3.624253e-10</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">5.568000e-4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.969231e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-9.595781e-3 7.316912e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">1.340924e-1 -5.446102e-1</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.268076e-1 4.252899e-1</value>
+        <value name="Zyy" output="Ey" input="Hy">5.671578e-2 -2.816012e-2</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.438304e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">7.208243e-6</value>
+        <value name="Zyx" output="Ey" input="Hx">1.319962e-5</value>
+        <value name="Zyy" output="Ey" input="Hy">6.615159e-6</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">8.815166e-2 3.692007e-10</value>
+        <value output="Hx" input="Hy">-9.140655e-4 3.979000e-3</value>
+        <value output="Hy" input="Hx">-9.140655e-4 -3.979000e-3</value>
+        <value output="Hy" input="Hy">4.417834e-2 -1.479007e-10</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.631624e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">1.715426e-5 -1.222000e-5</value>
+        <value output="Ey" input="Ex">1.715426e-5 1.222000e-5</value>
+        <value output="Ey" input="Ey">1.497376e-4 -4.235165e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">6.248586e-2 1.920827e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.575651e-1 -1.027646e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">6.390114e-5</value>
+        <value name="Ty" output="Hz" input="Hy">3.202488e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">8.815166e-2 3.692007e-10</value>
+        <value output="Hx" input="Hy">-9.140655e-4 3.979000e-3</value>
+        <value output="Hy" input="Hx">-9.140655e-4 -3.979000e-3</value>
+        <value output="Hy" input="Hy">4.417834e-2 -1.479007e-10</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">7.249000e-4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="2.560000e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-2.301155e-2 6.678413e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">1.439704e-1 -4.193415e-1</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.920295e-1 2.896585e-1</value>
+        <value name="Zyy" output="Ey" input="Hy">4.722155e-2 -1.866413e-2</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.827980e-6</value>
+        <value name="Zxy" output="Ex" input="Hy">2.813962e-6</value>
+        <value name="Zyx" output="Ey" input="Hx">2.244744e-6</value>
+        <value name="Zyy" output="Ey" input="Hy">2.233618e-6</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.976900e-2 1.947994e-11</value>
+        <value output="Hx" input="Hy">-1.936755e-3 2.318000e-3</value>
+        <value output="Hy" input="Hx">-1.936755e-3 -2.318000e-3</value>
+        <value output="Hy" input="Hy">1.967100e-2 -1.067799e-10</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.430513e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">1.851075e-5 -9.523000e-6</value>
+        <value output="Ey" input="Ex">1.851075e-5 9.523000e-6</value>
+        <value output="Ey" input="Ey">1.135487e-4 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">1.074924e-1 2.552200e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.680917e-1 4.457421e-3</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">1.864809e-5</value>
+        <value name="Ty" output="Hz" input="Hy">1.855566e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.976900e-2 1.947994e-11</value>
+        <value output="Hx" input="Hy">-1.936755e-3 2.318000e-3</value>
+        <value output="Hy" input="Hx">-1.936755e-3 -2.318000e-3</value>
+        <value output="Hy" input="Hy">1.967100e-2 -1.067799e-10</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">9.433000e-4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="3.303226e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-2.422352e-2 4.237859e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">1.349618e-1 -2.892781e-1</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.576382e-1 1.877219e-1</value>
+        <value name="Zyy" output="Ey" input="Hy">3.549352e-2 -2.438590e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">7.306547e-7</value>
+        <value name="Zxy" output="Ex" input="Hy">1.529176e-6</value>
+        <value name="Zyx" output="Ey" input="Hx">5.929591e-7</value>
+        <value name="Zyy" output="Ey" input="Hy">1.240995e-6</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">4.636126e-3 1.975331e-11</value>
+        <value output="Hx" input="Hy">-7.467697e-4 7.474000e-4</value>
+        <value output="Hy" input="Hx">-7.467697e-4 -7.474000e-4</value>
+        <value output="Hy" input="Hy">9.702875e-3 6.927668e-11</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.576003e-4 -2.117582e-22</value>
+        <value output="Ex" input="Ey">2.105430e-5 -5.025000e-6</value>
+        <value output="Ey" input="Ex">2.105430e-5 5.025000e-6</value>
+        <value output="Ey" input="Ey">1.278997e-4 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">1.077083e-1 7.213659e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.505577e-1 3.534720e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">6.810468e-6</value>
+        <value name="Ty" output="Hz" input="Hy">1.425352e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">4.636126e-3 1.975331e-11</value>
+        <value output="Hx" input="Hy">-7.467697e-4 7.474000e-4</value>
+        <value output="Hy" input="Hx">-7.467697e-4 -7.474000e-4</value>
+        <value output="Hy" input="Hy">9.702875e-3 6.927668e-11</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.469000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="4.266667e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.919300e-2 2.652159e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">1.166822e-1 -1.927825e-1</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.188178e-1 1.167175e-1</value>
+        <value name="Zyy" output="Ey" input="Hy">2.699300e-2 5.809410e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.546833e-7</value>
+        <value name="Zxy" output="Ex" input="Hy">7.447045e-7</value>
+        <value name="Zyx" output="Ey" input="Hx">2.227478e-7</value>
+        <value name="Zyy" output="Ey" input="Hy">6.513239e-7</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">2.180150e-3 1.511897e-12</value>
+        <value output="Hx" input="Hy">-3.008049e-4 2.257000e-4</value>
+        <value output="Hy" input="Hx">-3.008049e-4 -2.257000e-4</value>
+        <value output="Hy" input="Hy">6.374850e-3 3.600210e-11</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.168191e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">1.418459e-5 -5.570000e-6</value>
+        <value output="Ey" input="Ex">1.418459e-5 5.570000e-6</value>
+        <value output="Ey" input="Ey">1.021709e-4 2.117582e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">5.884190e-2 6.555539e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.376588e-1 4.149155e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.985314e-6</value>
+        <value name="Ty" output="Hz" input="Hy">1.165323e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">2.180150e-3 1.511897e-12</value>
+        <value output="Hx" input="Hy">-3.008049e-4 2.257000e-4</value>
+        <value output="Hy" input="Hx">-3.008049e-4 -2.257000e-4</value>
+        <value output="Hy" input="Hy">6.374850e-3 3.600210e-11</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.828000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="5.389474e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.563083e-2 1.827710e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">9.494866e-2 -1.304840e-1</value>
+        <value name="Zyx" output="Ey" input="Hx">-8.820134e-2 7.506606e-2</value>
+        <value name="Zyy" output="Ey" input="Hy">1.937083e-2 9.905898e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.629084e-7</value>
+        <value name="Zxy" output="Ex" input="Hy">3.368785e-7</value>
+        <value name="Zyx" output="Ey" input="Hx">1.325568e-7</value>
+        <value name="Zyy" output="Ey" input="Hy">2.741144e-7</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">2.011473e-3 9.851474e-13</value>
+        <value output="Hx" input="Hy">-1.056316e-4 -1.270000e-4</value>
+        <value output="Hy" input="Hx">-1.056316e-4 1.270000e-4</value>
+        <value output="Hy" input="Hy">4.159527e-3 1.391485e-11</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">8.098962e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">6.495390e-6 -5.651000e-6</value>
+        <value output="Ey" input="Ex">6.495390e-6 5.651000e-6</value>
+        <value output="Ey" input="Ey">6.590038e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">5.197689e-2 4.944209e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.290025e-1 3.729727e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">4.370930e-6</value>
+        <value name="Ty" output="Hz" input="Hy">9.038653e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">2.011473e-3 9.851474e-13</value>
+        <value output="Hx" input="Hy">-1.056316e-4 -1.270000e-4</value>
+        <value output="Hy" input="Hx">-1.056316e-4 1.270000e-4</value>
+        <value output="Hy" input="Hy">4.159527e-3 1.391485e-11</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">2.173000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="6.826667e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.197432e-2 1.204025e-2</value>
+        <value name="Zxy" output="Ex" input="Hy">7.180611e-2 -8.487749e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">-6.100389e-2 4.609251e-2</value>
+        <value name="Zyy" output="Ey" input="Hy">1.119832e-2 1.104675e-2</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">8.419384e-8</value>
+        <value name="Zxy" output="Ex" input="Hy">1.614702e-7</value>
+        <value name="Zyx" output="Ey" input="Hx">7.183133e-8</value>
+        <value name="Zyy" output="Ey" input="Hy">1.377609e-7</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.189579e-3 -1.547805e-12</value>
+        <value output="Hx" input="Hy">-9.611869e-5 -3.686999e-5</value>
+        <value output="Hy" input="Hx">-9.611869e-5 3.687000e-5</value>
+        <value output="Hy" input="Hy">2.281421e-3 -2.186219e-11</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">7.077617e-5 2.117582e-22</value>
+        <value output="Ex" input="Ey">5.052467e-6 -5.990000e-6</value>
+        <value output="Ey" input="Ex">5.052467e-6 5.990000e-6</value>
+        <value output="Ey" input="Ey">6.038383e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">4.462025e-2 3.665840e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.165937e-1 4.361250e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.976326e-6</value>
+        <value name="Ty" output="Hz" input="Hy">5.708116e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.189579e-3 -1.547805e-12</value>
+        <value output="Hx" input="Hy">-9.611869e-5 -3.686999e-5</value>
+        <value output="Hy" input="Hx">-9.611869e-5 3.687000e-5</value>
+        <value output="Hy" input="Hy">2.281421e-3 -2.186219e-11</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">2.502000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="8.533334e1" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-9.573550e-3 7.829210e-3</value>
+        <value name="Zxy" output="Ex" input="Hy">5.624634e-2 -5.856446e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">-4.530366e-2 3.075554e-2</value>
+        <value name="Zyy" output="Ey" input="Hy">7.357550e-3 9.703789e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">3.759266e-8</value>
+        <value name="Zxy" output="Ex" input="Hy">6.274923e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">3.537810e-8</value>
+        <value name="Zyy" output="Ey" input="Hy">5.905271e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.021284e-3 -2.006462e-12</value>
+        <value output="Hx" input="Hy">-1.136295e-4 -2.144000e-5</value>
+        <value output="Hy" input="Hx">-1.136295e-4 2.144000e-5</value>
+        <value output="Hy" input="Hy">1.704716e-3 7.463462e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.680920e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">2.563847e-6 -3.189000e-6</value>
+        <value output="Ey" input="Ex">2.563847e-6 3.189000e-6</value>
+        <value output="Ey" input="Ey">3.464080e-5 -1.058791e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">4.283000e-2 2.791422e-2</value>
+        <value name="Ty" output="Hz" input="Hy">1.069490e-1 4.407980e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.047512e-6</value>
+        <value name="Ty" output="Hz" input="Hy">5.086872e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.021284e-3 -2.006462e-12</value>
+        <value output="Hx" input="Hy">-1.136295e-4 -2.144000e-5</value>
+        <value output="Hy" input="Hx">-1.136295e-4 2.144000e-5</value>
+        <value output="Hy" input="Hy">1.704716e-3 7.463462e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">2.984000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.024000e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-7.628509e-3 5.471395e-3</value>
+        <value name="Zxy" output="Ex" input="Hy">4.364533e-2 -4.210908e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">-3.423467e-2 2.116092e-2</value>
+        <value name="Zyy" output="Ey" input="Hy">4.351510e-3 8.184005e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.687892e-8</value>
+        <value name="Zxy" output="Ex" input="Hy">4.556030e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">2.341431e-8</value>
+        <value name="Zyy" output="Ey" input="Hy">3.968772e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">6.664887e-4 1.213682e-12</value>
+        <value output="Hx" input="Hy">-1.225732e-4 -4.503000e-5</value>
+        <value output="Hy" input="Hx">-1.225732e-4 4.503000e-5</value>
+        <value output="Hy" input="Hy">1.129711e-3 -7.591823e-13</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">4.032915e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">2.705464e-6 -8.220000e-7</value>
+        <value output="Ey" input="Ex">2.705464e-6 8.220000e-7</value>
+        <value output="Ey" input="Ey">3.513085e-5 -2.646978e-23</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">3.823504e-2 2.261707e-2</value>
+        <value name="Ty" output="Hz" input="Hy">9.718938e-2 4.244268e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.387362e-6</value>
+        <value name="Ty" output="Hz" input="Hy">4.046626e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">6.664887e-4 1.213682e-12</value>
+        <value output="Hx" input="Hy">-1.225732e-4 -4.503000e-5</value>
+        <value output="Hy" input="Hx">-1.225732e-4 4.503000e-5</value>
+        <value output="Hy" input="Hy">1.129711e-3 -7.591823e-13</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">3.582000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.321290e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-5.146675e-3 3.178966e-3</value>
+        <value name="Zxy" output="Ex" input="Hy">2.969328e-2 -2.620957e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.216672e-2 1.265043e-2</value>
+        <value name="Zyy" output="Ey" input="Hy">2.195175e-3 6.451074e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.663073e-8</value>
+        <value name="Zxy" output="Ex" input="Hy">3.024211e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">2.186941e-8</value>
+        <value name="Zyy" output="Ey" input="Hy">2.483511e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">6.676782e-4 7.858870e-13</value>
+        <value output="Hx" input="Hy">-6.934919e-5 1.527000e-5</value>
+        <value output="Hy" input="Hx">-6.934919e-5 -1.527000e-5</value>
+        <value output="Hy" input="Hy">7.582217e-4 6.418813e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.988558e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">3.533209e-6 -2.451000e-6</value>
+        <value output="Ey" input="Ex">3.533209e-6 2.451000e-6</value>
+        <value output="Ey" input="Ey">3.275442e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">3.529570e-2 1.395237e-2</value>
+        <value name="Ty" output="Hz" input="Hy">8.299635e-2 3.747776e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.051289e-6</value>
+        <value name="Ty" output="Hz" input="Hy">3.465073e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">6.676782e-4 7.858870e-13</value>
+        <value output="Hx" input="Hy">-6.934919e-5 1.527000e-5</value>
+        <value output="Hy" input="Hx">-6.934919e-5 -1.527000e-5</value>
+        <value output="Hy" input="Hy">7.582217e-4 6.418813e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">4.570000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.706667e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-3.615513e-3 1.646782e-3</value>
+        <value name="Zxy" output="Ex" input="Hy">1.957328e-2 -1.650358e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.405672e-2 7.350417e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">9.781126e-4 4.940317e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.825175e-8</value>
+        <value name="Zxy" output="Ex" input="Hy">2.756451e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">1.638387e-8</value>
+        <value name="Zyy" output="Ey" input="Hy">2.474356e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">6.244026e-4 -1.353817e-13</value>
+        <value output="Hx" input="Hy">-5.466526e-5 5.681000e-5</value>
+        <value output="Hy" input="Hx">-5.466526e-5 -5.681000e-5</value>
+        <value output="Hy" input="Hy">9.429974e-4 8.154381e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.923073e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">2.066617e-6 -1.715000e-6</value>
+        <value output="Ey" input="Ex">2.066617e-6 1.715000e-6</value>
+        <value output="Ey" input="Ey">2.623927e-5 -5.293956e-23</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">2.949061e-2 8.521610e-3</value>
+        <value name="Ty" output="Hz" input="Hy">7.370113e-2 3.183149e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.517884e-6</value>
+        <value name="Ty" output="Hz" input="Hy">5.312848e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">6.244026e-4 -1.353817e-13</value>
+        <value output="Hx" input="Hy">-5.466526e-5 5.681000e-5</value>
+        <value output="Hy" input="Hx">-5.466526e-5 -5.681000e-5</value>
+        <value output="Hy" input="Hy">9.429974e-4 8.154381e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">5.634000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="2.155790e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-2.582718e-3 7.314457e-4</value>
+        <value name="Zxy" output="Ex" input="Hy">1.347033e-2 -1.096139e-2</value>
+        <value name="Zyx" output="Ey" input="Hx">-9.131671e-3 4.564615e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">5.423184e-4 3.823954e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.311943e-8</value>
+        <value name="Zxy" output="Ex" input="Hy">2.050476e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">1.273524e-8</value>
+        <value name="Zyy" output="Ey" input="Hy">1.990430e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">5.528046e-4 -3.217977e-13</value>
+        <value output="Hx" input="Hy">-5.811111e-5 3.582000e-5</value>
+        <value output="Hy" input="Hx">-5.811111e-5 -3.582000e-5</value>
+        <value output="Hy" input="Hy">8.639954e-4 -3.235962e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.373249e-5 -1.323489e-23</value>
+        <value output="Ex" input="Ey">1.475851e-6 -4.349000e-7</value>
+        <value output="Ey" input="Ex">1.475851e-6 4.349000e-7</value>
+        <value output="Ey" input="Ey">2.303751e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">3.221361e-2 1.259449e-3</value>
+        <value name="Ty" output="Hz" input="Hy">7.280104e-2 2.078264e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">4.043766e-6</value>
+        <value name="Ty" output="Hz" input="Hy">6.320126e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">5.528046e-4 -3.217977e-13</value>
+        <value output="Hx" input="Hy">-5.811111e-5 3.582000e-5</value>
+        <value output="Hy" input="Hx">-5.811111e-5 -3.582000e-5</value>
+        <value output="Hy" input="Hy">8.639954e-4 -3.235962e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">7.315000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="2.730667e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.676094e-3 3.625053e-4</value>
+        <value name="Zxy" output="Ex" input="Hy">9.199211e-3 -7.416252e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-5.801789e-3 3.049748e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">1.445936e-4 2.871895e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">8.042331e-9</value>
+        <value name="Zxy" output="Ex" input="Hy">1.402244e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">7.519939e-9</value>
+        <value name="Zyy" output="Ey" input="Hy">1.311161e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">3.180517e-4 2.121424e-13</value>
+        <value output="Hx" input="Hy">-1.586022e-6 -1.485000e-5</value>
+        <value output="Hy" input="Hx">-1.586022e-6 1.485000e-5</value>
+        <value output="Hy" input="Hy">5.545483e-4 1.250858e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.528624e-5 5.293956e-23</value>
+        <value output="Ex" input="Ey">6.687656e-7 -1.685000e-6</value>
+        <value output="Ey" input="Ex">6.687656e-7 1.685000e-6</value>
+        <value output="Ey" input="Ey">2.364376e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">3.633148e-2 -5.561032e-3</value>
+        <value name="Ty" output="Hz" input="Hy">7.237557e-2 1.287291e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.767368e-6</value>
+        <value name="Ty" output="Hz" input="Hy">4.825125e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">3.180517e-4 2.121424e-13</value>
+        <value output="Hx" input="Hy">-1.586022e-6 -1.485000e-5</value>
+        <value output="Hy" input="Hx">-1.586022e-6 1.485000e-5</value>
+        <value output="Hy" input="Hy">5.545483e-4 1.250858e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">8.701000e-3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="3.413333e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.073643e-3 5.786351e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">6.417338e-3 -5.413942e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-4.027662e-3 2.113058e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">-1.413568e-4 2.270037e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">5.731932e-9</value>
+        <value name="Zxy" output="Ex" input="Hy">1.081966e-8</value>
+        <value name="Zyx" output="Ey" input="Hx">6.971332e-9</value>
+        <value name="Zyy" output="Ey" input="Hy">1.315917e-8</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">3.128883e-4 -7.027257e-13</value>
+        <value output="Hx" input="Hy">-2.726617e-5 -2.534000e-5</value>
+        <value output="Hy" input="Hx">-2.726617e-5 2.534000e-5</value>
+        <value output="Hy" input="Hy">5.906117e-4 -3.957974e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.831942e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">-1.230088e-6 -6.477000e-7</value>
+        <value output="Ey" input="Ex">-1.230088e-6 6.477000e-7</value>
+        <value output="Ey" input="Ey">2.228058e-5 2.646978e-23</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">4.267977e-2 -7.307629e-3</value>
+        <value name="Ty" output="Hz" input="Hy">7.379567e-2 7.766095e-3</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.979939e-6</value>
+        <value name="Ty" output="Hz" input="Hy">7.512581e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">3.128883e-4 -7.027257e-13</value>
+        <value output="Hx" input="Hy">-2.726617e-5 -2.534000e-5</value>
+        <value output="Hy" input="Hx">-2.726617e-5 2.534000e-5</value>
+        <value output="Hy" input="Hy">5.906117e-4 -3.957974e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.272000e-2 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="4.096000e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-7.714267e-4 4.297461e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">4.781711e-3 -3.953644e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.768289e-3 1.551356e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">-1.419733e-4 2.010125e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">3.889092e-9</value>
+        <value name="Zxy" output="Ex" input="Hy">6.528873e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">4.499491e-9</value>
+        <value name="Zyy" output="Ey" input="Hy">7.553591e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">2.162563e-4 1.578219e-13</value>
+        <value output="Hx" input="Hy">1.396147e-5 -3.066000e-5</value>
+        <value output="Hy" input="Hx">1.396147e-5 3.066000e-5</value>
+        <value output="Hy" input="Hy">3.630437e-4 2.229178e-12</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.798371e-5 5.293956e-23</value>
+        <value output="Ex" input="Ey">-2.622537e-7 1.039000e-6</value>
+        <value output="Ey" input="Ex">-2.622537e-7 -1.039000e-6</value>
+        <value output="Ey" input="Ey">2.080629e-5 -5.293956e-23</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">5.005433e-2 -1.154112e-2</value>
+        <value name="Ty" output="Hz" input="Hy">7.777574e-2 6.730299e-4</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.514165e-6</value>
+        <value name="Ty" output="Hz" input="Hy">5.899459e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">2.162563e-4 1.578219e-13</value>
+        <value output="Hx" input="Hy">1.396147e-5 -3.066000e-5</value>
+        <value output="Hy" input="Hx">1.396147e-5 3.066000e-5</value>
+        <value output="Hy" input="Hy">3.630437e-4 2.229178e-12</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.625000e-2 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="5.285161e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-4.297182e-4 -5.986877e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">3.019834e-3 -2.790382e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.687166e-3 1.089618e-3</value>
+        <value name="Zyy" output="Ey" input="Hy">-2.475018e-4 1.279969e-3</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.798184e-9</value>
+        <value name="Zxy" output="Ex" input="Hy">6.042839e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">3.512740e-9</value>
+        <value name="Zyy" output="Ey" input="Hy">7.585963e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.049198e-4 -8.608141e-13</value>
+        <value output="Hx" input="Hy">2.562785e-5 -1.927000e-5</value>
+        <value output="Hy" input="Hx">2.562785e-5 1.927000e-5</value>
+        <value output="Hy" input="Hy">2.265802e-4 -9.226858e-13</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.666975e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">6.438119e-7 1.267000e-6</value>
+        <value output="Ey" input="Ex">6.438119e-7 -1.267000e-6</value>
+        <value output="Ey" input="Ey">3.348025e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">5.792650e-2 -1.087081e-2</value>
+        <value name="Ty" output="Hz" input="Hy">8.704148e-2 -2.662878e-3</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.238873e-6</value>
+        <value name="Ty" output="Hz" input="Hy">6.994532e-6</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.049198e-4 -8.608141e-13</value>
+        <value output="Hx" input="Hy">2.562785e-5 -1.927000e-5</value>
+        <value output="Hy" input="Hx">2.562785e-5 1.927000e-5</value>
+        <value output="Hy" input="Hy">2.265802e-4 -9.226858e-13</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">3.087000e-2 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="6.826667e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-2.967466e-4 -6.418640e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">1.959330e-3 -1.857427e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.054670e-3 8.635731e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-3.068734e-4 9.286863e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.855568e-9</value>
+        <value name="Zxy" output="Ex" input="Hy">5.448690e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">2.636544e-9</value>
+        <value name="Zyy" output="Ey" input="Hy">7.741949e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">5.254547e-5 4.091766e-13</value>
+        <value output="Hx" input="Hy">2.106179e-5 -1.144000e-5</value>
+        <value output="Hy" input="Hx">2.106179e-5 1.144000e-5</value>
+        <value output="Hy" input="Hy">1.542945e-4 2.881234e-13</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.531356e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">-5.525956e-6 -9.833000e-7</value>
+        <value output="Ey" input="Ex">-5.525956e-6 9.833000e-7</value>
+        <value output="Ey" input="Ey">5.017643e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">6.945523e-2 -4.502782e-3</value>
+        <value name="Ty" output="Hz" input="Hy">9.574867e-2 3.174941e-3</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.555227e-6</value>
+        <value name="Ty" output="Hz" input="Hy">1.043957e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">5.254547e-5 4.091766e-13</value>
+        <value output="Hx" input="Hy">2.106179e-5 -1.144000e-5</value>
+        <value output="Hy" input="Hx">2.106179e-5 1.144000e-5</value>
+        <value output="Hy" input="Hy">1.542945e-4 2.881234e-13</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">6.766000e-2 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="8.623158e2" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.479306e-4 -4.714090e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">1.361787e-3 -1.392895e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-6.874134e-4 6.044055e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-2.211694e-4 6.360409e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.207392e-9</value>
+        <value name="Zxy" output="Ex" input="Hy">3.653147e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">1.723598e-9</value>
+        <value name="Zyy" output="Ey" input="Hy">5.215007e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">4.328741e-5 9.891145e-15</value>
+        <value output="Hx" input="Hy">1.805946e-5 -1.084000e-5</value>
+        <value output="Hy" input="Hx">1.805946e-5 1.084000e-5</value>
+        <value output="Hy" input="Hy">1.309726e-4 1.397089e-13</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.789246e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">-1.993893e-6 -1.622000e-6</value>
+        <value output="Ey" input="Ex">-1.993893e-6 1.622000e-6</value>
+        <value output="Ey" input="Ey">3.981754e-5 -5.293956e-23</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">7.927787e-2 4.906497e-3</value>
+        <value name="Ty" output="Hz" input="Hy">1.061232e-1 2.223940e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">7.207354e-6</value>
+        <value name="Ty" output="Hz" input="Hy">2.180694e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">4.328741e-5 9.891145e-15</value>
+        <value output="Hx" input="Hy">1.805946e-5 -1.084000e-5</value>
+        <value output="Hy" input="Hx">1.805946e-5 1.084000e-5</value>
+        <value output="Hy" input="Hy">1.309726e-4 1.397089e-13</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.665000e-1 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.092267e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-7.756099e-5 2.784955e-6</value>
+        <value name="Zxy" output="Ex" input="Hy">9.428740e-4 -1.009344e-3</value>
+        <value name="Zyx" output="Ey" input="Hx">-4.325261e-4 4.888559e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-1.541490e-4 4.962950e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">7.205444e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">2.253254e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">9.333637e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">2.918773e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">2.108232e-5 1.399126e-13</value>
+        <value output="Hx" input="Hy">5.458287e-6 -6.889000e-6</value>
+        <value output="Hy" input="Hx">5.458287e-6 6.889000e-6</value>
+        <value output="Hy" input="Hy">6.592768e-5 -2.064126e-13</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.417766e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">-3.149239e-6 1.579000e-6</value>
+        <value output="Ey" input="Ex">-3.149239e-6 -1.579000e-6</value>
+        <value output="Ey" input="Ey">4.427234e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">8.058969e-2 1.642691e-2</value>
+        <value name="Ty" output="Hz" input="Hy">9.730400e-2 3.809480e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">1.137180e-5</value>
+        <value name="Ty" output="Hz" input="Hy">3.556139e-5</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">2.108232e-5 1.399126e-13</value>
+        <value output="Hx" input="Hy">5.458287e-6 -6.889000e-6</value>
+        <value output="Hy" input="Hx">5.458287e-6 6.889000e-6</value>
+        <value output="Hy" input="Hy">6.592768e-5 -2.064126e-13</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">5.394000e-1 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.365333e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-2.286844e-5 -2.219990e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">6.633298e-4 -6.953196e-4</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.982702e-4 4.036804e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-1.419616e-4 3.992999e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">7.537861e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">2.595752e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">8.711024e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">2.999745e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.925908e-5 1.554689e-13</value>
+        <value output="Hx" input="Hy">8.027221e-6 -6.236000e-6</value>
+        <value output="Hy" input="Hx">8.027221e-6 6.236000e-6</value>
+        <value output="Hy" input="Hy">6.632092e-5 -4.180889e-14</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.913926e-5 1.058791e-22</value>
+        <value output="Ex" input="Ey">-4.467301e-7 -2.005000e-6</value>
+        <value output="Ey" input="Ex">-4.467301e-7 2.005000e-6</value>
+        <value output="Ey" input="Ey">4.523074e-5 1.058791e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">7.838530e-2 2.537775e-2</value>
+        <value name="Ty" output="Hz" input="Hy">8.069885e-2 4.917905e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">3.304858e-5</value>
+        <value name="Ty" output="Hz" input="Hy">1.138067e-4</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.925908e-5 1.554689e-13</value>
+        <value output="Hx" input="Hy">8.027221e-6 -6.236000e-6</value>
+        <value output="Hy" input="Hx">8.027221e-6 6.236000e-6</value>
+        <value output="Hy" input="Hy">6.632092e-5 -4.180889e-14</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.716000e0 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.638400e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-3.565640e-6 -1.843914e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">4.902814e-4 -5.878319e-4</value>
+        <value name="Zyx" output="Ey" input="Hx">-2.461186e-4 3.149681e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-1.715344e-4 2.467291e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">5.642509e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">1.693078e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">5.637683e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">1.691629e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.298813e-5 3.804682e-14</value>
+        <value output="Hx" input="Hy">6.929730e-6 -4.131000e-6</value>
+        <value output="Hy" input="Hx">6.929730e-6 4.131000e-6</value>
+        <value output="Hy" input="Hy">3.897187e-5 -2.086068e-13</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">4.344358e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">-4.227835e-6 3.653000e-6</value>
+        <value output="Ey" input="Ex">-4.227835e-6 -3.653000e-6</value>
+        <value output="Ey" input="Ey">4.340642e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">6.345954e-2 4.279779e-2</value>
+        <value name="Ty" output="Hz" input="Hy">5.485187e-2 6.934642e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">4.154903e-5</value>
+        <value name="Ty" output="Hz" input="Hy">1.246710e-4</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.298813e-5 3.804682e-14</value>
+        <value output="Hx" input="Hy">6.929730e-6 -4.131000e-6</value>
+        <value output="Hy" input="Hx">6.929730e-6 4.131000e-6</value>
+        <value output="Hy" input="Hy">3.897187e-5 -2.086068e-13</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">3.199000e0 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="2.259862e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-1.228182e-5 9.468176e-6</value>
+        <value name="Zxy" output="Ex" input="Hy">2.870273e-4 -3.725875e-4</value>
+        <value name="Zyx" output="Ey" input="Hx">-8.367268e-5 1.985125e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-9.953817e-5 1.715618e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">5.123730e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">1.425367e-9</value>
+        <value name="Zyx" output="Ey" input="Hx">4.224760e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">1.175283e-9</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">6.115721e-6 1.473754e-15</value>
+        <value output="Hx" input="Hy">1.152499e-6 -1.144000e-6</value>
+        <value output="Hy" input="Hx">1.152499e-6 1.144000e-6</value>
+        <value output="Hy" input="Hy">1.701328e-5 2.081625e-14</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">8.377966e-5 0.000000e0</value>
+        <value output="Ex" input="Ey">1.694682e-6 2.440000e-6</value>
+        <value output="Ey" input="Ex">1.694682e-6 -2.440000e-6</value>
+        <value output="Ey" input="Ey">6.908033e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">5.874595e-2 3.177671e-2</value>
+        <value name="Ty" output="Hz" input="Hy">6.840558e-2 6.075361e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">1.016433e-4</value>
+        <value name="Ty" output="Hz" input="Hy">2.827607e-4</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">6.115721e-6 1.473754e-15</value>
+        <value output="Hx" input="Hy">1.152499e-6 -1.144000e-6</value>
+        <value output="Hy" input="Hx">1.152499e-6 1.144000e-6</value>
+        <value output="Hy" input="Hy">1.701328e-5 2.081625e-14</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.662000e1 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="3.120762e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">1.172756e-5 2.377975e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">1.758357e-4 -2.141508e-4</value>
+        <value name="Zyx" output="Ey" input="Hx">-9.376435e-5 1.307492e-4</value>
+        <value name="Zyy" output="Ey" input="Hy">-6.557756e-5 1.011942e-4</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.433308e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">6.286242e-10</value>
+        <value name="Zyx" output="Ey" input="Hx">2.346536e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">6.062073e-10</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">2.942166e-6 4.909711e-15</value>
+        <value output="Hx" input="Hy">6.676713e-7 5.083000e-8</value>
+        <value output="Hy" input="Hx">6.676713e-7 -5.083000e-8</value>
+        <value output="Hy" input="Hy">7.600834e-6 -3.795711e-15</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">8.270463e-5 4.235165e-22</value>
+        <value output="Ex" input="Ey">-1.910831e-6 -9.779000e-6</value>
+        <value output="Ey" input="Ex">-1.910831e-6 9.779000e-6</value>
+        <value output="Ey" input="Ey">7.975537e-5 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">3.777151e-2 5.163137e-2</value>
+        <value name="Ty" output="Hz" input="Hy">3.188437e-2 3.221947e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.666485e-4</value>
+        <value name="Ty" output="Hz" input="Hy">6.888636e-4</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">2.942166e-6 4.909711e-15</value>
+        <value output="Hx" input="Hy">6.676713e-7 5.083000e-8</value>
+        <value output="Hy" input="Hx">6.676713e-7 -5.083000e-8</value>
+        <value output="Hy" input="Hy">7.600834e-6 -3.795711e-15</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">9.063000e1 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="4.681143e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">9.603043e-6 1.181931e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">8.962116e-5 -1.083752e-4</value>
+        <value name="Zyx" output="Ey" input="Hx">-5.882885e-5 7.796478e-5</value>
+        <value name="Zyy" output="Ey" input="Hy">-3.750304e-5 2.737169e-5</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">2.274238e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">2.983568e-10</value>
+        <value name="Zyx" output="Ey" input="Hx">2.774838e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">3.640305e-10</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">2.167916e-6 6.977720e-15</value>
+        <value output="Hx" input="Hy">3.508794e-7 -2.971000e-7</value>
+        <value output="Hy" input="Hx">3.508794e-7 2.971000e-7</value>
+        <value output="Hy" input="Hy">2.844084e-6 -1.530720e-15</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">1.049043e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">-4.891763e-6 4.519000e-6</value>
+        <value output="Ey" input="Ex">-4.891763e-6 -4.519000e-6</value>
+        <value output="Ey" input="Ey">1.279957e-4 -2.117582e-22</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">3.964094e-2 -7.436878e-3</value>
+        <value name="Ty" output="Hz" input="Hy">3.321998e-2 4.095480e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">8.019120e-4</value>
+        <value name="Ty" output="Hz" input="Hy">1.052027e-3</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">2.167916e-6 6.977720e-15</value>
+        <value output="Hx" input="Hy">3.508794e-7 -2.971000e-7</value>
+        <value output="Hy" input="Hx">3.508794e-7 2.971000e-7</value>
+        <value output="Hy" input="Hy">2.844084e-6 -1.530720e-15</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">3.699000e2 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="7.281778e3" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">6.581455e-6 -3.103993e-6</value>
+        <value name="Zxy" output="Ex" input="Hy">8.716386e-5 -4.993966e-5</value>
+        <value name="Zyx" output="Ey" input="Hx">-3.125615e-5 3.946034e-5</value>
+        <value name="Zyy" output="Ey" input="Hy">-2.206146e-5 2.098899e-5</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">3.391476e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">5.046046e-10</value>
+        <value name="Zyx" output="Ey" input="Hx">1.799502e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">2.677410e-10</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.464310e-6 -5.301418e-15</value>
+        <value output="Hx" input="Hy">4.456111e-7 1.822000e-7</value>
+        <value output="Hy" input="Hx">4.456111e-7 -1.822000e-7</value>
+        <value output="Hy" input="Hy">2.178690e-6 -3.272582e-15</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.316092e-4 8.470329e-22</value>
+        <value output="Ex" input="Ey">4.543289e-5 2.324000e-5</value>
+        <value output="Ey" input="Ex">4.543289e-5 -2.324000e-5</value>
+        <value output="Ey" input="Ey">1.228908e-4 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">-7.431311e-2 -1.472747e-2</value>
+        <value name="Ty" output="Hz" input="Hy">3.999650e-2 1.917792e-2</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.575721e-3</value>
+        <value name="Ty" output="Hz" input="Hy">3.832316e-3</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.464310e-6 -5.301418e-15</value>
+        <value output="Hx" input="Hy">4.456111e-7 1.822000e-7</value>
+        <value output="Hy" input="Hx">4.456111e-7 -1.822000e-7</value>
+        <value output="Hy" input="Hy">2.178690e-6 -3.272582e-15</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.759000e3 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.191564e4" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-2.286667e-5 9.045783e-6</value>
+        <value name="Zxy" output="Ex" input="Hy">2.235327e-6 7.331844e-7</value>
+        <value name="Zyx" output="Ey" input="Hx">-5.376710e-7 1.852518e-5</value>
+        <value name="Zyy" output="Ey" input="Hy">1.607667e-5 2.324422e-5</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">3.357288e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">7.785661e-10</value>
+        <value name="Zyx" output="Ey" input="Hx">3.874501e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">8.985094e-10</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">1.419389e-6 6.811729e-14</value>
+        <value output="Hx" input="Hy">5.751296e-7 1.235000e-6</value>
+        <value output="Hy" input="Hx">5.751296e-7 -1.235000e-6</value>
+        <value output="Hy" input="Hy">3.291611e-6 1.322071e-14</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">2.365304e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">1.083765e-4 3.173000e-6</value>
+        <value output="Ey" input="Ex">1.083765e-4 -3.173000e-6</value>
+        <value output="Ey" input="Ey">2.729695e-4 0.000000e0</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">2.726485e-2 1.266631e-1</value>
+        <value name="Ty" output="Hz" input="Hy">2.013819e-1 -1.127209e-1</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">2.882780e-2</value>
+        <value name="Ty" output="Hz" input="Hy">6.685261e-2</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">1.419389e-6 6.811729e-14</value>
+        <value output="Hx" input="Hy">5.751296e-7 1.235000e-6</value>
+        <value output="Hy" input="Hx">5.751296e-7 -1.235000e-6</value>
+        <value output="Hy" input="Hy">3.291611e-6 1.322071e-14</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">2.031000e4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+    <Period value="1.872457e4" units="secs">
+      <Z type="complex" size="2  2" units="[mV/km]/[nT]">
+        <value name="Zxx" output="Ex" input="Hx">-3.321910e-6 1.484879e-5</value>
+        <value name="Zxy" output="Ex" input="Hy">1.018947e-5 5.713341e-6</value>
+        <value name="Zyx" output="Ey" input="Hx">-1.196053e-5 3.599934e-5</value>
+        <value name="Zyy" output="Ey" input="Hy">2.969910e-6 1.584921e-5</value>
+      </Z>
+      <Z.VAR type="real" size="2  2">
+        <value name="Zxx" output="Ex" input="Hx">1.711270e-10</value>
+        <value name="Zxy" output="Ex" input="Hy">4.266299e-10</value>
+        <value name="Zyx" output="Ey" input="Hx">1.414319e-10</value>
+        <value name="Zyy" output="Ey" input="Hy">3.525981e-10</value>
+      </Z.VAR>
+      <Z.INVSIGCOV type="complex" size="2  2">
+        <value output="Hx" input="Hx">5.298507e-7 1.351192e-14</value>
+        <value output="Hx" input="Hy">3.634880e-7 3.800000e-7</value>
+        <value output="Hy" input="Hx">3.634880e-7 -3.800000e-7</value>
+        <value output="Hy" input="Hy">1.320949e-6 5.006082e-15</value>
+      </Z.INVSIGCOV>
+      <Z.RESIDCOV type="complex" size="2  2">
+        <value output="Ex" input="Ex">3.229722e-4 0.000000e0</value>
+        <value output="Ex" input="Ey">-1.442063e-5 4.738000e-5</value>
+        <value output="Ey" input="Ex">-1.442063e-5 -4.738000e-5</value>
+        <value output="Ey" input="Ey">2.669278e-4 1.694066e-21</value>
+      </Z.RESIDCOV>
+      <T type="complex" size="1  2" units="[]">
+        <value name="Tx" output="Hz" input="Hx">8.658172e-2 2.842450e-1</value>
+        <value name="Ty" output="Hz" input="Hy">4.577204e-2 3.018377e-1</value>
+      </T>
+      <T.VAR type="real" size="1  2">
+        <value name="Tx" output="Hz" input="Hx">8.954476e-3</value>
+        <value name="Ty" output="Hz" input="Hy">2.232404e-2</value>
+      </T.VAR>
+      <T.INVSIGCOV type="complex" size="1  2">
+        <value output="Hx" input="Hx">5.298507e-7 1.351192e-14</value>
+        <value output="Hx" input="Hy">3.634880e-7 3.800000e-7</value>
+        <value output="Hy" input="Hx">3.634880e-7 -3.800000e-7</value>
+        <value output="Hy" input="Hy">1.320949e-6 5.006082e-15</value>
+      </T.INVSIGCOV>
+      <T.RESIDCOV type="complex" size="1  2">
+        <value output="Hz" input="Hz">1.690000e4 0.000000e0</value>
+      </T.RESIDCOV>
+    </Period>
+  </Data>
+  <PeriodRange min="7.314290000" max="18724.572270000"/>
+</EM_TF>

@@ -1,0 +1,1846 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" schemaVersion="1.1">
+  <Source>MTH5</Source>
+  <Module>ObsPy 1.3.0</Module>
+  <ModuleURI>https://www.obspy.org</ModuleURI>
+  <Created>2022-09-26T18:56:41.127990Z</Created>
+  <Network code="EM" startDate="1996-01-01T00:00:00.000000Z" restrictedStatus="open" alternateCode="Kansas 2017 Long Period">
+    <Description>Electromagnetic Studies of the Continents (EMSOC)</Description>
+    <Identifier type="DOI">10.7914/SN/EM
+   </Identifier>
+    <Comment subject="mt.survey.project">
+      <Value>USGS-CGGSC</Value>
+    </Comment>
+    <Comment subject="mt.survey.id">
+      <Value>Kansas 2017 Long Period</Value>
+    </Comment>
+    <Comment subject="mt.survey.geographic_name">
+      <Value>Kansas and Nebraska, USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.country">
+      <Value>USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.acquired_by.name">
+      <Value>USGS</Value>
+    </Comment>
+    <TotalNumberStations>1746</TotalNumberStations>
+    <SelectedNumberStations>0</SelectedNumberStations>
+    <Station code="MTF20" startDate="2009-07-03T22:38:13.000000Z" endDate="2009-08-13T17:15:39.000000Z" restrictedStatus="open">
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-07-03T22:38:13.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-08-13T17:15:39.000000Z</EndEffectiveTime>
+      </Comment>
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-07-03T22:38:13.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-07-31T19:39:01.000000Z</EndEffectiveTime>
+      </Comment>
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-07-03T22:38:13.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-07-04T00:43:52.000000Z</EndEffectiveTime>
+      </Comment>
+      <Latitude unit="DEGREES">45.797001</Latitude>
+      <Longitude unit="DEGREES">-108.049004</Longitude>
+      <Elevation>1057.8</Elevation>
+      <Site>
+        <Name>Billings, MT, USA</Name>
+      </Site>
+      <CreationDate>2009-07-03T22:38:13.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+      <Channel code="LFE" startDate="2009-07-03T22:38:13.000000Z" endDate="2009-08-13T17:15:39.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">45.797199</Latitude>
+        <Longitude unit="DEGREES">-108.049004</Longitude>
+        <Elevation>1054.2</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">102.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-04</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.201</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFN" startDate="2009-07-03T22:38:13.000000Z" endDate="2009-08-13T17:15:39.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">45.797199</Latitude>
+        <Longitude unit="DEGREES">-108.049004</Longitude>
+        <Elevation>1054.2</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">12.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-04</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.192</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFZ" startDate="2009-07-03T22:38:13.000000Z" endDate="2009-08-13T17:15:39.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">45.797199</Latitude>
+        <Longitude unit="DEGREES">-108.049004</Longitude>
+        <Elevation>1054.2</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-04</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.21</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQE" startDate="2009-07-03T22:38:13.000000Z" endDate="2009-08-13T17:15:39.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">45.797199</Latitude>
+        <Longitude unit="DEGREES">-108.049004</Longitude>
+        <Elevation>1054.2</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">102.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-04</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQN" startDate="2009-07-03T22:38:13.000000Z" endDate="2009-08-13T17:15:39.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">45.797199</Latitude>
+        <Longitude unit="DEGREES">-108.049004</Longitude>
+        <Elevation>1054.2</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">12.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-04</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="EM" startDate="1996-01-01T00:00:00.000000Z" restrictedStatus="open" alternateCode="Kansas 2017 Long Period">
+    <Description>Electromagnetic Studies of the Continents (EMSOC)</Description>
+    <Identifier type="DOI">10.7914/SN/EM
+   </Identifier>
+    <Comment subject="mt.survey.project">
+      <Value>USGS-CGGSC</Value>
+    </Comment>
+    <Comment subject="mt.survey.id">
+      <Value>Kansas 2017 Long Period</Value>
+    </Comment>
+    <Comment subject="mt.survey.geographic_name">
+      <Value>Kansas and Nebraska, USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.country">
+      <Value>USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.acquired_by.name">
+      <Value>USGS</Value>
+    </Comment>
+    <TotalNumberStations>1746</TotalNumberStations>
+    <SelectedNumberStations>0</SelectedNumberStations>
+    <Station code="WYYS2" startDate="2009-07-15T22:43:28.000000Z" endDate="2009-08-20T00:17:06.000000Z" restrictedStatus="open">
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-07-15T22:43:28.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-08-20T00:17:06.000000Z</EndEffectiveTime>
+      </Comment>
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-07-15T16:44:00.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-08-05T19:09:39.000000Z</EndEffectiveTime>
+      </Comment>
+      <Latitude unit="DEGREES">44.396</Latitude>
+      <Longitude unit="DEGREES">-110.577003</Longitude>
+      <Elevation>2398.9</Elevation>
+      <Site>
+        <Name>Grant Village, WY, USA</Name>
+      </Site>
+      <CreationDate>2009-07-15T22:43:28.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+      <Channel code="LFE" startDate="2009-07-15T22:43:28.000000Z" endDate="2009-08-20T00:17:06.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.3964</Latitude>
+        <Longitude unit="DEGREES">-110.577003</Longitude>
+        <Elevation>2392.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">103.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-08</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.201</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFN" startDate="2009-07-15T22:43:28.000000Z" endDate="2009-08-20T00:17:06.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.3964</Latitude>
+        <Longitude unit="DEGREES">-110.577003</Longitude>
+        <Elevation>2392.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">13.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-08</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.192</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFZ" startDate="2009-07-15T22:43:28.000000Z" endDate="2009-08-20T00:17:06.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.3964</Latitude>
+        <Longitude unit="DEGREES">-110.577003</Longitude>
+        <Elevation>2392.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-08</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.21</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQE" startDate="2009-07-15T22:43:28.000000Z" endDate="2009-08-20T00:17:06.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.3964</Latitude>
+        <Longitude unit="DEGREES">-110.577003</Longitude>
+        <Elevation>2392.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">103.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-08</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQN" startDate="2009-07-15T22:43:28.000000Z" endDate="2009-08-20T00:17:06.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.3964</Latitude>
+        <Longitude unit="DEGREES">-110.577003</Longitude>
+        <Elevation>2392.0</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">13.5</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-08</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="EM" startDate="1996-01-01T00:00:00.000000Z" restrictedStatus="open" alternateCode="Kansas 2017 Long Period">
+    <Description>Electromagnetic Studies of the Continents (EMSOC)</Description>
+    <Identifier type="DOI">10.7914/SN/EM
+   </Identifier>
+    <Comment subject="mt.survey.project">
+      <Value>USGS-CGGSC</Value>
+    </Comment>
+    <Comment subject="mt.survey.id">
+      <Value>Kansas 2017 Long Period</Value>
+    </Comment>
+    <Comment subject="mt.survey.geographic_name">
+      <Value>Kansas and Nebraska, USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.country">
+      <Value>USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.acquired_by.name">
+      <Value>USGS</Value>
+    </Comment>
+    <TotalNumberStations>1746</TotalNumberStations>
+    <SelectedNumberStations>0</SelectedNumberStations>
+    <Station code="WYYS3" startDate="2009-08-20T01:55:41.000000Z" endDate="2009-09-17T20:04:21.000000Z" restrictedStatus="open">
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-08-20T01:55:41.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-09-17T20:04:21.000000Z</EndEffectiveTime>
+      </Comment>
+      <Latitude unit="DEGREES">44.561001</Latitude>
+      <Longitude unit="DEGREES">-110.315002</Longitude>
+      <Elevation>2387.7</Elevation>
+      <Site>
+        <Name>Fishing Bridge, WY, USA</Name>
+      </Site>
+      <CreationDate>2009-08-20T01:55:41.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+      <Channel code="LFE" startDate="2009-08-20T01:55:41.000000Z" endDate="2009-09-17T20:04:21.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.560699</Latitude>
+        <Longitude unit="DEGREES">-110.315002</Longitude>
+        <Elevation>2387.8</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">103.4</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-18</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.201</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFN" startDate="2009-08-20T01:55:41.000000Z" endDate="2009-09-17T20:04:21.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.560699</Latitude>
+        <Longitude unit="DEGREES">-110.315002</Longitude>
+        <Elevation>2387.8</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">13.4</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-18</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.192</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFZ" startDate="2009-08-20T01:55:41.000000Z" endDate="2009-09-17T20:04:21.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.560699</Latitude>
+        <Longitude unit="DEGREES">-110.315002</Longitude>
+        <Elevation>2387.8</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-18</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.21</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQE" startDate="2009-08-20T01:55:41.000000Z" endDate="2009-09-17T20:04:21.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.560699</Latitude>
+        <Longitude unit="DEGREES">-110.315002</Longitude>
+        <Elevation>2387.8</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">103.4</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-18</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQN" startDate="2009-08-20T01:55:41.000000Z" endDate="2009-09-17T20:04:21.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">44.560699</Latitude>
+        <Longitude unit="DEGREES">-110.315002</Longitude>
+        <Elevation>2387.8</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">13.4</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-18</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+  <Network code="EM" startDate="1996-01-01T00:00:00.000000Z" restrictedStatus="open" alternateCode="Kansas 2017 Long Period">
+    <Description>Electromagnetic Studies of the Continents (EMSOC)</Description>
+    <Identifier type="DOI">10.7914/SN/EM
+   </Identifier>
+    <Comment subject="mt.survey.project">
+      <Value>USGS-CGGSC</Value>
+    </Comment>
+    <Comment subject="mt.survey.id">
+      <Value>Kansas 2017 Long Period</Value>
+    </Comment>
+    <Comment subject="mt.survey.geographic_name">
+      <Value>Kansas and Nebraska, USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.country">
+      <Value>USA</Value>
+    </Comment>
+    <Comment subject="mt.survey.acquired_by.name">
+      <Value>USGS</Value>
+    </Comment>
+    <TotalNumberStations>1746</TotalNumberStations>
+    <SelectedNumberStations>0</SelectedNumberStations>
+    <Station code="MTC20" startDate="2009-08-22T23:54:15.000000Z" endDate="2009-09-14T22:50:17.000000Z" restrictedStatus="open">
+      <Comment>
+        <Value>Data Problem Report available at http://www.iris.edu/data/dpr.htm</Value>
+        <BeginEffectiveTime>2009-08-22T23:54:15.000000Z</BeginEffectiveTime>
+        <EndEffectiveTime>2009-09-14T22:50:17.000000Z</EndEffectiveTime>
+      </Comment>
+      <Latitude unit="DEGREES">47.755001</Latitude>
+      <Longitude unit="DEGREES">-108.0</Longitude>
+      <Elevation>834.4</Elevation>
+      <Site>
+        <Name>Zortman, MT, USA</Name>
+      </Site>
+      <CreationDate>2009-08-22T23:54:15.000000Z</CreationDate>
+      <TotalNumberChannels>5</TotalNumberChannels>
+      <SelectedNumberChannels>0</SelectedNumberChannels>
+      <Channel code="LFE" startDate="2009-08-22T23:54:15.000000Z" endDate="2009-09-14T22:50:17.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">47.755199</Latitude>
+        <Longitude unit="DEGREES">-108.0</Longitude>
+        <Elevation>834.9</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">102.8</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-11</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.201</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFN" startDate="2009-08-22T23:54:15.000000Z" endDate="2009-09-14T22:50:17.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">47.755199</Latitude>
+        <Longitude unit="DEGREES">-108.0</Longitude>
+        <Elevation>834.9</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">12.8</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-11</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.192</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LFZ" startDate="2009-08-22T23:54:15.000000Z" endDate="2009-09-14T22:50:17.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">47.755199</Latitude>
+        <Longitude unit="DEGREES">-108.0</Longitude>
+        <Elevation>834.9</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">0.0</Azimuth>
+        <Dip unit="DEGREES">90.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>T</Name>
+          <Description>Tesla</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-11</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>100000000000.0</Value>
+            <Frequency>0.0</Frequency>
+            <InputUnits>
+              <Name>T</Name>
+              <Description>Tesla</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>T</Name>
+                <Description>Tesla</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1984.31</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.0</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">10.8825</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-6.28319</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-10.8825</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.21</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100000000000.0</Value>
+              <Frequency>0.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQE" startDate="2009-08-22T23:54:15.000000Z" endDate="2009-09-14T22:50:17.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">47.755199</Latitude>
+        <Longitude unit="DEGREES">-108.0</Longitude>
+        <Elevation>834.9</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">102.8</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-11</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="LQN" startDate="2009-08-22T23:54:15.000000Z" endDate="2009-09-14T22:50:17.000000Z" restrictedStatus="open" locationCode="">
+        <Latitude unit="DEGREES">47.755199</Latitude>
+        <Longitude unit="DEGREES">-108.0</Longitude>
+        <Elevation>834.9</Elevation>
+        <Depth>0.0</Depth>
+        <Azimuth unit="DEGREES">12.8</Azimuth>
+        <Dip unit="DEGREES">0.0</Dip>
+        <Type>GEOPHYSICAL</Type>
+        <SampleRate unit="SAMPLES/S">1.0</SampleRate>
+        <ClockDrift unit="SECONDS/SAMPLE">0.0</ClockDrift>
+        <CalibrationUnits>
+          <Name>V/M</Name>
+          <Description>Volts/Meter</Description>
+        </CalibrationUnits>
+        <Sensor>
+          <Description>NIMS 2612-11</Description>
+        </Sensor>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>40959900000.0</Value>
+            <Frequency>0.01</Frequency>
+            <InputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>None</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V/M</Name>
+                <Description>Volts/Meter</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>0.0</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>100.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <PolesZeros>
+              <InputUnits>
+                <Name>V</Name>
+                <Description>Volts</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+                <Description>Digital Counts</Description>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>313384.0</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">0.01</NormalizationFrequency>
+              <Pole number="0">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">11.9519</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real minusError="0.0" plusError="0.0">-3.88301</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-11.9519</Imaginary>
+              </Pole>
+              <Pole number="2">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">7.38651</Imaginary>
+              </Pole>
+              <Pole number="3">
+                <Real minusError="0.0" plusError="0.0">-10.1662</Real>
+                <Imaginary minusError="0.0" plusError="0.0">-7.38651</Imaginary>
+              </Pole>
+              <Pole number="4">
+                <Real minusError="0.0" plusError="0.0">-12.5664</Real>
+                <Imaginary minusError="0.0" plusError="0.0">0.0</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <Decimation>
+              <InputSampleRate unit="HERTZ">1.0</InputSampleRate>
+              <Factor>1</Factor>
+              <Offset>0</Offset>
+              <Delay>-0.285</Delay>
+              <Correction>0.0</Correction>
+            </Decimation>
+            <StageGain>
+              <Value>409599000.0</Value>
+              <Frequency>0.01</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+    </Station>
+  </Network>
+</FDSNStationXML>
