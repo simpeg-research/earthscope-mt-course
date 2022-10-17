@@ -1,9 +1,7 @@
 **[summary](#summary) | [prerequisites](#prerequisites) | [setup](#setup) | [resources](#resources) | [license](#license)**
 
-[![Build Status](https://travis-ci.org/simpeg-research/heagy-2018-AEM.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy-2018-AEM)
 [![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/iris-mt-course-2022/blob/main/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40sgkang09)](https://twitter.com/sgkang09)
 
 # MT Inversions and Earth Models
 
@@ -16,6 +14,8 @@
 
 **Team**
 - [Seogi Kang](https://github.com/sgkang) (Instructor)
+- [Jared Peacock](https://github.com/kujaku11) (Instructor)
+- [Karl Kepler](https://github.com/kkappler) (Instructor)
 - [Lindsey Heagy](http://github.com/lheagy) 
 - and the [SimPEG contributors](https://github.com/simpeg/simpeg/graphs/contributors)
 
@@ -23,15 +23,13 @@
 
 ## Summary
 
-This repository contains the notebooks and tutorial resources for the Magnetotelluric (MT) Instrumentation and Data Processing Short Course - Day4: MT inversions and Earht Models. 
-This tutorial focuses on providing hands-on numerical resources to forward model and invert MT data. 
+This repository contains the notebooks and tutorial resources for the Magnetotelluric (MT) Instrumentation and Data Processing Short Course - through Day2-Day4: 
 
-For the forward modelling, I will start from 3D then reduce the domain into 2D and 1D. 
-In contrast, for the inversion, I will start from 1D then exapnd the domain into 2D and 3D. 
-For both forward modelling and inversion, I will use an opne-source geophysical software package, [SimPEG](https://www.simpeg.xyz). 
-Both synthetic and field data are used as motivating examples. 
-The field data used in this tutorial is compiled by [Jared Peacock](), Paul Bedrosian, Anna Kelbert, and avaialble in the form of [MTH5](https://github.com/kujaku11/mth5). For reading the field data into [SimPEG](https://www.simpeg.xyz), I will use [MTpy](https://github.com/MTgeophysics/mtpy). 
+- Day2: MT Data, Data Formats, Software, & Data Processing
+- Day3: MT Dataset Explorations
+- Day4: MT inversions and Earht Models. 
 
+This set of tutorials focus on providing hands-on examples of downloading, processing, visualziing, and inverting MT data. 
 
 ## Prerequisites
 
