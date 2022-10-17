@@ -76,7 +76,7 @@ and activate the environment
 conda activate em
 ```
 
-### Step 3: Install `MTH5`, `MTpy`, `mt_metadata`, `SimPEG`
+### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy`, `aurora`, `SimPEG`
 
 Then 
 ```
@@ -117,6 +117,18 @@ cd mtpy
 ```
 ```
 cd ..
+```
+```
+git clone https://github.com/simpeg/aurora.git
+```
+```
+cd aurora
+```
+```
+cd ..
+```
+```
+python setup.py install
 ```
 ```
 https://github.com/simpeg/simpeg.git
