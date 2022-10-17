@@ -147,8 +147,9 @@ Jupyter will then launch in your web-browser.
 
 ## Resources
 
-**Resources on Geophysics and Inversions**
-- [Inversion Module](https://curvenote.com/@geosci/inversion-module/inverse-theory-overview)
+**Resources on MT processing and inversions**
+- [MTH5](https://github.com/kujaku11/mth5)
+- [MTpy](https://github.com/MTgeophysics/mtpy)
 - [SimPEG](https://www.simepg.xyz)
 
 **Resources on SimPEG**
