@@ -65,6 +65,9 @@ and activate the environment
 ```
 conda activate em
 ```
+```
+cd ..
+```
 
 ### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy`, `aurora`, `SimPEG`
 
@@ -125,6 +128,9 @@ git clone https://github.com/simpeg/simpeg.git
 ```
 ```
 cd simpeg
+```
+```
+git checkout -f tiled_fdem_nsem
 ```
 ```
 pip install -e .
