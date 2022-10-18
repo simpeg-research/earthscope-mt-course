@@ -56,7 +56,7 @@ to clone the repository, and `cd` into the `iris-mt-course-2022` directory
 cd iris-mt-course-2022
 ```
 
-### Step 2: Create the MT inversion tutorial conda environment
+### Step 2: Create `em` conda environment
 
 From inside of the `iris-mt-course-2022` repository, create the `em` conda environment
 ```
