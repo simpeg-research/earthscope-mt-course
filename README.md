@@ -156,13 +156,13 @@ Jupyter will then launch in your web-browser.
 **Resources on MT processing and inversions**
 - [MTH5](https://github.com/kujaku11/mth5)
 - [MTpy](https://github.com/MTgeophysics/mtpy)
+- [aurora](https://github.com/simpeg/aurora)
 - [SimPEG](https://www.simepg.xyz)
 
 **Resources on SimPEG**
 - [Docs](http://docs.simpeg.xyz/)
 - [Discourse](http://simpeg.discourse.group/)
 - [Slack](http://slack.simpeg.xyz/)
-- [This Tutorial](https://github.com/simpeg/iris-mt-course-2022/)
 
 
 ## License
