@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/iris-mt-course-2022/blob/main/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40sgkang09)](https://twitter.com/sgkang09)
 
 # Magnetotelluric (MT) Instrumentation and Data Processing Short Course
 
