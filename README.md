@@ -53,7 +53,7 @@ To clone this repository, open up a terminal and navigate to where you want this
 
 Then run
 ```
-git clone https://github.com/simpeg/iris-mt-course-2022.git
+git clone https://github.com/simpeg-research/iris-mt-course-2022.git
 ```
 to clone the repository, and `cd` into the `iris-mt-course-2022` directory
 ```
