@@ -40,7 +40,7 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
 * Some knowledge of Python is assumed.
 * All coding will be done in Jupyter notebooks. I'll explain how they work
   briefly but it will help if you've used them before.
-* I will ll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
+* We will ll use [numpy](https://numpy.org/), [matplotlib](https://matplotlib.org/), and
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
