@@ -32,8 +32,34 @@ jobs:
       run: |
         python --version
         conda env create -f environment.yml
+        source activate em
+        cd ..
+        git clone https://github.com/kujaku11/mt_metadata.git
+        cd mt_metadata
+        python setup.py install
+        cd ..
+        git clone https://github.com/kujaku11/mth5.git
+        cd mth5
+        python setup.py install
+        cd ..
+        git clone https://github.com/MTgeophysics/mtpy.git
+        git checkout -f v2
+        cd mtpy
+        python setup.py install
+        cd ..
+        git clone https://github.com/simpeg/aurora.git
+        cd aurora
+        pip install -e .
+        cd ..
+        git clone https://github.com/simpeg/simpeg.git
+        cd simpeg
+        git checkout -f tiled_fdem_nsem
+        pip install -e .
+        cd ..
+        cd iris-mt-course-2022
     - name: Run Tests
       shell: bash
       run: |
         source activate em
         conda list
+        pytest .
