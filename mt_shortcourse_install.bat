@@ -1,4 +1,4 @@
-git clone https://github.com/simpeg/iris-mt-course-2022.git
+git clone https://github.com/simpeg-research/iris-mt-course-2022.git
 cd iris-mt-course-2022
 conda env create -f environment.yml
 conda activate em
@@ -11,8 +11,8 @@ cd mth5
 python setup.py install
 cd ..
 git clone https://github.com/MTgeophysics/mtpy.git
-git checkout -f v2
 cd mtpy
+git checkout -f v2
 python setup.py install
 cd ..
 git clone https://github.com/simpeg/aurora.git
