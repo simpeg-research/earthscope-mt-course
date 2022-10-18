@@ -29,9 +29,9 @@ This repository contains the notebooks and tutorial resources for the Magnetotel
 
 - Day2: MT Data, Data Formats, Software, & Data Processing
 - Day3: MT Dataset Explorations
-- Day4: MT inversions and Earht Models. 
+- Day4: MT inversions and Earth Models. 
 
-This set of tutorials focus on providing hands-on examples of downloading, processing, visualziing, and inverting MT data. 
+This set of tutorials focus on providing hands-on examples of downloading, processing, visualzing, and inverting MT data. 
 
 ## Prerequisites
 
