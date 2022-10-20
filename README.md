@@ -44,9 +44,6 @@ This set of tutorials focus on providing hands-on examples of downloading, proce
   [ipywidgets](https://ipywidgets.readthedocs.io/)
   You don't need to be an expert in these tools but some familiarity will help.
 
-Manual download: 
-[download link](https://www.dropbox.com/s/gjmdbjopz8wvu1p/mt_course.zip?dl=0)
-
 ### Step 1: Download the MT inversion tutorial
 
 To clone this repository, open up a terminal and navigate to where you want this repository stored on your computer.
