@@ -12,7 +12,7 @@
 |--------:|:-----|
 | When    | October 18-20th 2022|
 | conda environment  | `em` |
-| Slides  | [MT inversion](http://bit.ly/iris-mt-course-2022-slides) |
+| Slides  | [MT inversion](https://www.dropbox.com/sh/u87ft0xtj0fnc0e/AAC_44EIhLWAXto1KAkogoKWa?dl=0) |
 
 **Team**
 - [Seogi Kang](https://github.com/sgkang) (Instructor)
