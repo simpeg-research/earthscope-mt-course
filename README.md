@@ -80,14 +80,12 @@ Then instal `mtpy`
 ```
 git clone https://github.com/MTgeophysics/mtpy-v2.git
 ```
-
-```
-git checkout updates
-```
 ```
 cd mtpy-v2
 ```
-
+```
+git checkout -f updates
+```
 ```
 pip install -e .
 ```
