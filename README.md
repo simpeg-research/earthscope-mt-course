@@ -76,17 +76,27 @@ cd ..
 Note that installing `mtpy-v2` will install `mt_metadata`, `mth5`, `SimPEG` and `MTpy-v2`
 
 
-Then 
+Then instal `mtpy`
 ```
 git clone https://github.com/MTgeophysics/mtpy-v2.git
+```
+
+```
 git checkout updates
+```
+```
 cd mtpy-v2
 ```
 
 ```
-python setup.py install
+pip install -e .
 ```
 
+```
+cd ..
+```
+
+Now install `aurora`.
 ```
 git clone https://github.com/simpeg/aurora.git
 ```
