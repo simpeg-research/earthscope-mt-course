@@ -96,17 +96,6 @@ pip install -e .
 cd ..
 ```
 
-Now install `aurora`.
-```
-git clone https://github.com/simpeg/aurora.git
-```
-```
-cd aurora
-```
-```
-pip install -e .
-```
-
 ```
 cd earthscope-mt-course
 ```
