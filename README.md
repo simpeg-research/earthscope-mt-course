@@ -1,6 +1,6 @@
 **[summary](#summary) | [prerequisites](#prerequisites) | [setup](#setup) | [resources](#resources) | [license](#license)**
 
-[![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/iris-mt-course-2022/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/earthscope-mt-course/blob/main/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 ![example workflow](https://github.com/simpeg-research/iris-mt-course-2022/actions/workflows/python-package-conda.yml/badge.svg)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40sgkang09)](https://twitter.com/sgkang09)
@@ -17,7 +17,7 @@
 **Team**
 - [Seogi Kang](https://github.com/sgkang) (Instructor)
 - [Jared Peacock](https://github.com/kujaku11) (Instructor)
-- [Karl Kepler](https://github.com/kkappler) (Instructor)
+- [Karl Kappler](https://github.com/kkappler) (Instructor)
 - [Lindsey Heagy](http://github.com/lheagy) 
 - and the [SimPEG contributors](https://github.com/simpeg/simpeg/graphs/contributors)
 
@@ -50,16 +50,16 @@ To clone this repository, open up a terminal and navigate to where you want this
 
 Then run
 ```
-git clone https://github.com/simpeg-research/iris-mt-course-2022.git
+git clone https://github.com/simpeg-research/earthscope-mt-course.git
 ```
 to clone the repository, and `cd` into the `iris-mt-course-2022` directory
 ```
-cd iris-mt-course-2022
+cd earthscope-mt-course
 ```
 
 ### Step 2: Create `em` conda environment
 
-From inside of the `iris-mt-course-2022` repository, create the `em` conda environment
+From inside of the `earthscope-mt-course` repository, create the `em` conda environment
 ```
 conda env create -f environment.yml
 ```
@@ -71,48 +71,22 @@ conda activate em
 cd ..
 ```
 
-### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy`, `aurora`, `SimPEG`
+### Step 3: Install  `mt_metadata`, `MTH5`, `MTpy-v2`, `aurora`, `SimPEG`
+
+Note that installing `mtpy-v2` will install `mt_metadata`, `mth5`, `SimPEG` and `MTpy-v2`
+
 
 Then 
 ```
-git clone https://github.com/kujaku11/mt_metadata.git
+git clone https://github.com/MTgeophysics/mtpy-v2.git
+git checkout updates
+cd mtpy-v2
 ```
-```
-cd mt_metadata
-```
-```
-python setup.py install
-```
-```
-cd ..
-```
-```
-git clone https://github.com/kujaku11/mth5.git
-```
-```
-cd mth5
-```
+
 ```
 python setup.py install
 ```
-```
-cd ..
-```
-```
-git clone https://github.com/MTgeophysics/mtpy.git
-```
-```
-cd mtpy
-```
-```
-git checkout -f v2
-```
-```
-python setup.py install
-```
-```
-cd ..
-```
+
 ```
 git clone https://github.com/simpeg/aurora.git
 ```
@@ -122,26 +96,9 @@ cd aurora
 ```
 pip install -e .
 ```
+
 ```
-cd ..
-```
-```
-git clone https://github.com/simpeg/simpeg.git
-```
-```
-cd simpeg
-```
-```
-git checkout -f tiled_fdem_nsem
-```
-```
-pip install -e .
-```
-```
-cd ..
-```
-```
-cd iris-mt-course-2022
+cd earthscope-mt-course
 ```
 
 ### Step 4: Launching the notebooks
@@ -157,7 +114,7 @@ Jupyter will then launch in your web-browser.
 
 **Resources on MT processing and inversions**
 - [MTH5](https://github.com/kujaku11/mth5)
-- [MTpy](https://github.com/MTgeophysics/mtpy)
+- [MTpy](https://github.com/MTgeophysics/mtpy-v2)
 - [aurora](https://github.com/simpeg/aurora)
 - [SimPEG](https://www.simepg.xyz)
 
