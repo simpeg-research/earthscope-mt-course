@@ -1,8 +1,8 @@
 **[summary](#summary) | [prerequisites](#prerequisites) | [setup](#setup) | [resources](#resources) | [license](#license)**
 
-[![License](https://img.shields.io/github/license/simpeg-research/iris-mt-course-2022.svg)](https://github.com/simpeg-research/earthscope-mt-course/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/simpeg-research/earthscope-mt-course.svg)](https://github.com/simpeg-research/earthscope-mt-course/blob/main/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
-![example workflow](https://github.com/simpeg-research/iris-mt-course-2022/actions/workflows/python-package-conda.yml/badge.svg)
+![example workflow](https://github.com/simpeg-research/earthscope-mt-course/actions/workflows/python-package-conda.yml/badge.svg)
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40sgkang09)](https://twitter.com/sgkang09)
 
 # Magnetotelluric (MT) Instrumentation and Data Processing Short Course
@@ -52,7 +52,7 @@ Then run
 ```
 git clone https://github.com/simpeg-research/earthscope-mt-course.git
 ```
-to clone the repository, and `cd` into the `iris-mt-course-2022` directory
+to clone the repository, and `cd` into the `earthscope-mt-course-2022` directory
 ```
 cd earthscope-mt-course
 ```
@@ -76,25 +76,22 @@ cd ..
 Note that installing `mtpy-v2` will install `mt_metadata`, `mth5`, `SimPEG` and `MTpy-v2`
 
 
-Then 
+Then instal `mtpy`
 ```
 git clone https://github.com/MTgeophysics/mtpy-v2.git
-git checkout updates
+```
+```
 cd mtpy-v2
 ```
-
 ```
-python setup.py install
-```
-
-```
-git clone https://github.com/simpeg/aurora.git
-```
-```
-cd aurora
+git checkout -f updates
 ```
 ```
 pip install -e .
+```
+
+```
+cd ..
 ```
 
 ```

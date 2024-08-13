@@ -1,15 +1,19 @@
 name: em
-
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - matplotlib=3.5.2
+  - matplotlib
+  - numpy=1.26
   - git
   - simpeg
-  - pyvista
   - dill
-  - jupyter
   - jupyterlab
-  - ipympl
   - ipywidgets
+  - mkl-devel
+  - pkg-config
+  - cmake
+  - cython 
+  - ninja
+  - pip:
+    - aurora

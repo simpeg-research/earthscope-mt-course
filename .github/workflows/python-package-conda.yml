@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         os: ["ubuntu-latest"]
-        python-version: [3.8, 3.9]
+        python-version: [3.10.0, 3.11]
 
     steps:
     - uses: actions/checkout@v2
@@ -32,6 +32,15 @@ jobs:
       run: |
         python --version
         conda env create -f environment.yml
+        source activate em
+        git clone https://github.com/simpeg/pydiso.git
+        cd pydiso
+        pip install -e .
+        cd ..
+        git clone https://github.com/MTgeophysics/mtpy-v2.git
+        cd mtpy-v2
+        git checkout -f updates
+        pip install -e .
     - name: Run Tests
       shell: bash
       run: |
