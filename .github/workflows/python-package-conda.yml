@@ -32,6 +32,9 @@ jobs:
       run: |
         python --version
         conda env create -f environment.yml
+        git clone https://github.com/simpeg/pydiso.git
+        cd pydiso
+        pip install -e .
     - name: Run Tests
       shell: bash
       run: |
