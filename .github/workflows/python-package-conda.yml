@@ -41,6 +41,10 @@ jobs:
         cd mtpy-v2
         git checkout -f updates
         pip install -e .
+        git clone https://github.com/MTgeophysics/mtpy_data.git
+        cd mtpy_data
+        pip install -e .
+        cd ..
     - name: Run Tests
       shell: bash
       run: |
